@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Tue Apr 09 01:09:47 CST 2019
-org.eclipse.jst.jee.server\:/binary\:E\:\\learning\\code\\springmvc-basic\\WebContent\\WEB-INF\\lib\\spring-web-4.3.7.RELEASE.jar=WEB-INF/lib/spring-web-4.3.7.RELEASE.jar
-org.eclipse.jst.jee.server\:/binary\:E\:\\learning\\code\\springmvc-anno\\WebContent\\WEB-INF\\lib\\spring-web-4.3.7.RELEASE.jar=WEB-INF/lib/spring-web-4.3.7.RELEASE.jar

@@ -1,7 +1,0 @@
-package app03.controller;
-
-import org.springframework.web.servlet.mvc.Controller;
-
-public class testController implements Controller {
-
-}
