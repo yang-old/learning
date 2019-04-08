@@ -1,0 +1,20 @@
+package app03.controller;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ProductController {
+	
+	private static final Log logger = LogFactory.getLog(ProductController.class);
+	
+	@RequestMapping("/product_input")
+	public String inputProduct(){
+		logger.info(" InputController called ");
+		
+		return "ProductForm";
+	}
+
+}

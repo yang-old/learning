@@ -1,0 +1,20 @@
+package app03.controller;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.Controller;
+
+public class InputController implements Controller {
+
+	private static final Log logger = LogFactory.getLog(InputController.class);
+
+	@Override
+	public ModelAndView handleRequest(HttpServletRequest arg0, HttpServletResponse arg1) throws Exception {
+		// TODO Auto-generated method stub
+		logger.info(" InputController called ");
+		System.err.println(" InputController called ");
+		return new ModelAndView("/WEB-INF/jsp/app3/ProductForm.jsp");
+	}
+
+}
